@@ -1,0 +1,447 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0;
+    background-color: hsl(0, 0, 10%);
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    overflow-x: hidden;
+}
+
+.header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(background.jpg);
+    background-size: cover;
+    height: 650px;
+    font-size: smaller;
+    width: 100%;
+
+}
+
+.header-content {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+
+.text1 {
+    margin-left: 3%;
+    color: white;
+    width: auto;
+    font: weight 500px;
+    ;
+    font-size: 24px;
+}
+
+.logo2 {
+    width: auto;
+    height: 130px;
+    margin-bottom: 20px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+
+}
+
+.logo1 {
+    height: 25px;
+}
+
+.login {
+    background-color: transparent;
+    border-color: transparent;
+    color: silver;
+    font-weight: bolder;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 7px;
+    padding: 10px;
+    transition: .5s;
+}
+
+.login:hover {
+    background-color: rgb(64, 64, 64);
+
+
+}
+
+.button-2 {
+    cursor: pointer;
+    background-color: #4dff88;
+    border-color: transparent;
+    border-radius: 5px;
+    padding: 10px;
+    width: 45%;
+    font-weight: bolder;
+    font-size: small;
+    margin-top: 30px;
+
+}
+
+h5 {
+    padding: 20px;
+    color: #4dff88;
+}
+
+.links p {
+    padding: 7px;
+    color: silver;
+}
+
+.font1 {
+    cursor: pointer;
+    font-size: smaller;
+    color: rgba(192, 192, 192, 0.825);
+}
+
+.font2 {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.975);
+    margin-left: 13%;
+    font-size: larger;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+.images {
+    color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-around;
+    object-fit: cover;
+
+}
+
+.image-text {
+    position: relative;
+    margin-top: -425px;
+    margin-left: 28px;
+
+}
+
+.images img {
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+    padding: 10px;
+    margin-top: 0%;
+    object-fit: cover;
+    cursor: pointer;
+    width: auto;
+    height: 462px;
+}
+
+.top-middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+}
+
+h1 {
+    padding: 20px;
+    font-size: 50px;
+}
+
+.h5 {
+    padding: 1px;
+    margin-top: 5%;
+}
+
+.add {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 380px;
+    margin-right: 180px;
+    font-size: 10px;
+    font-weight: lighter;
+
+
+}
+
+.middle-contents {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 18%;
+    margin-right: 18%;
+    text-align: center;
+}
+
+h6 {
+    margin-right: 10px;
+    padding: 20px;
+    font-size: 9px;
+    font-weight: lighter;
+}
+
+.link2 {
+    font-size: medium;
+    font-weight: bold;
+}
+
+h6 div {
+    font-size: 15px;
+}
+
+.middle-contents img {
+    padding: 50px;
+    cursor: pointer;
+}
+
+.sports img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.news-text {
+    color: white;
+    font-size: medium;
+    font-weight: bolder;
+    display: flex;
+    position: relative;
+}
+
+.news-text p {
+
+    cursor: pointer;
+    padding: 15px;
+}
+
+.no-diff:hover {
+    color: silver;
+}
+
+.diff {
+
+    color: rgba(192, 192, 192, 0.878);
+}
+
+.diff:hover {
+    color: rgba(192, 192, 192, 0.51);
+}
+
+.sports-logos {
+    display: flex;
+    width: 15%;
+    margin-top: 20px;
+    position: relative;
+
+}
+
+.logo-background {
+    position: relative;
+}
+
+.logo3 {
+
+    position: relative;
+    width: 70%;
+    margin-left: 8px;
+
+    margin-top: -40px;
+}
+
+.news-contents {
+    color: white;
+}
+
+.contents {
+    position: relative;
+    margin-top: -610px;
+    margin-left: 230px;
+}
+
+.bottom {
+    position: relative;
+    margin-top: 400px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.pimg {
+    width: auto;
+    height: 35px;
+}
+
+.btn {
+    background-color: #4dff88;
+    width: 110%;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.btn2 {
+    background-color: white;
+    width: 150%;
+    height: 50px;
+    border-radius: 6px;
+}
+
+.btn2:hover {
+    transition: 0.2s;
+    background-color: rgba(192, 192, 192, 0.7);
+}
+
+.flex {
+    text-align: center;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 8%;
+    margin-top: 60px;
+}
+
+hr {
+
+    margin-top: 30px;
+    width: 87%;
+    margin-left: 6%;
+    color: silver;
+}
+
+.table {
+    align-items: center;
+    border: silver;
+    color: white;
+    text-align: left;
+    width: 70%;
+    margin: auto;
+
+}
+
+.table2 {
+    width: 750px;
+}
+
+.table th {
+    width: 750px;
+    padding: 49px 145px;
+    padding-right: 126px;
+    padding-left: 260px;
+    font-size: 12px;
+    background-color: transparent;
+    border-color: silver;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+
+}
+
+.footer {
+    font-size: smaller;
+    background-color: white;
+}
+
+.icons {
+    display: flex;
+    width: 10%;
+    margin: 100px;
+    justify-content: space-evenly;
+
+    color: grey;
+}
+
+.flex2 {
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    color: grey;
+
+}
+
+.credits {
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    color: grey;
+}
+
+.flex2 p {
+    cursor: pointer;
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+.headings {
+    margin-top: 70px;
+    display: flex;
+
+    justify-content: space-around;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    text-align: center;
+}
+
+.sub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row3 {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.row2 {
+    display: flex;
+    align-items: center;
+}
+.column1 img{
+    cursor: pointer;
+}
+.column1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.column2{
+    margin-left: 200px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: -460px;
+    
+}
+
+.column3{
+    margin-left: 750px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* margin-top: -767px; */
+    
+}
+
+
