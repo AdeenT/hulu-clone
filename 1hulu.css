@@ -414,34 +414,3 @@ hr {
     display: flex;
     align-items: center;
 }
-.column1 img{
-    cursor: pointer;
-}
-.column1{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-
-}
-
-.column2{
-    margin-left: 200px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin-top: -460px;
-    
-}
-
-.column3{
-    margin-left: 750px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    /* margin-top: -767px; */
-    
-}
-
-
